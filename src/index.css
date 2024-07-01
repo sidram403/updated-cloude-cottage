@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.header-bg {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.hero-family {
+  font-family: Futura Bk BT !important;
+}
+
+.header-family {
+  font-family: Cinzel !important;
+}
+
+.para-family {
+  font-family: inter !important;
+
+  font-weight: 300;
+}
+
+.bg-welcome {
+  background-image: url("./bg-welcome.png");
+}
+
+.bg-welcome-color {
+  background-color: rgba(1, 142, 146, 0.8);
+}
+
+.btn-family {
+  font-family: Poppins !important;
+}
+
+.bg-contact {
+  background-image: url("./bg-contact.png");
+}
+
+.contact-family {
+  font-family: Arizonia !important;
+  font-weight: 400;
+}
+
+.bg-map {
+  background-image: url("./map-img.png");
+}
+
+.bg-footer {
+  background-image: url("./bg-footer.png");
+}
+.bg-overlay-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(100vh - 175px);
+}
+
+.image-gallery-slide .image-gallery-image {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: cover;
+}
+.image-gallery-thumbnail {
+  width: 215px;
+}
+@media (max-width: 768px) {
+  .image-gallery-thumbnail {
+    width: 140px;
+  }
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-hover-cottage{
+  background-color: rgba(122, 69, 29, 0.6);
+}
+
+.bg-overlay-cottage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(122, 69, 29, 0.6)
+}
+
+
+.bg-opacity-transition {
+  transition: opacity 1.5s ease-in-out;
+}
+

@@ -1,6 +1,8 @@
 // src/HeroSection.js
 import React, { useState, useEffect } from "react";
-import Slider from "infinite-react-carousel";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+
 
 const images = [
   "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/hero%2Fhero_01.JPG?alt=media&token=05da2e6a-889f-45f2-9983-6a7f0c71cb08",
@@ -15,34 +17,44 @@ const images = [
 ];
 
 const HeroSection = () => {
-  const settings =  {
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 3000
-  };
   return (
-    <Slider { ...settings } style={{ position: "relative" }}>
+    <Carousel
+      showArrows={false}
+      infiniteLoop={true}
+      useKeyboardArrows={true}
+      autoPlay={true}
+      stopOnHover={true}
+      swipeable={false}
+      dynamicHeight={true}
+      emulateTouch={true}
+      showStatus={false}
+      showThumbs={false}
+      animationHandler="fade" 
+      swipeAnimationHandler={false}
+      showIndicators={false}
+      thumbWidth={100}
+      selectedItem={1}
+      interval={5000}
+      transitionTime={500}
+      swipeScrollTolerance={5}
+    >
       {images.map((eachImage, key) => (
-        <div key={key}>
-          <div
-            className="w-full h-[650px] md:h-[700px] bg-cover bg-center bg-opacity-transition"
-            style={{
-              backgroundImage: `url(${eachImage})`,
-              opacity: 1,
-            }}
-          >
-            <div className="w-full h-full flex flex-col justify-end items-center bg-black bg-opacity-40 pb-20">
-              <h1 className="text-white hero-family text-center text-[24px] tracking-[6px] lg:text-[70px] lg:tracking-[20px] font-normal uppercase">
-                CLOUD NINE COTTAGES
-              </h1>
-              <p className="hero-family text-white text-[24px] md:text-[40px]">
-                Paradise, Michigan
-              </p>
-            </div>
+        <div
+          key={key}
+          className="w-full h-screen bg-cover bg-center transition-all duration-500"
+          style={{ backgroundImage: `url(${eachImage})` }}
+        >
+          <div className="w-full h-full flex flex-col justify-end items-center bg-black bg-opacity-50 pb-20">
+            <h1 className="text-white hero-family text-center text-[45px] tracking-[10px] lg:text-[70px] lg:tracking-[20px] font-normal uppercase">
+              CLOUD NINE COTTAGES
+            </h1>
+            <p className="hero-family text-white text-[30px] md:text-[40px]">
+              Paradise Michigan
+            </p>
           </div>
         </div>
       ))}
-    </Slider>
+    </Carousel>
   );
 };
 

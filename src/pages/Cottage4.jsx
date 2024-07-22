@@ -49,7 +49,7 @@ const Cottage4 = () => {
   const Amenities = [
     {
       icon: "./icons/icon1.png",
-      name: "One Queen Bed",
+      name: "One King Bed",
     },
     {
       icon: "./icons/icon2.png",
@@ -186,7 +186,7 @@ const Cottage4 = () => {
           <p className="text-[16px] md:text-[20px] font-extralight my-[30px]">
             This newly remodeled A frame cabin is located steps away from the
             property’s secluded beach on Whitefish Bay. The home features 1
-            bedroom and 1 full bathroom. The loft bedroom has a queen bed. The
+            bedroom and 1 full bathroom. The loft bedroom has a King bed. The
             home has an open concept living room and dining area, with a fully
             equipped kitchen, a dining table, and a sitting area with a sofa and
             TV. The back porch has outdoor chairs and overlooks the bay.

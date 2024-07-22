@@ -45,7 +45,7 @@ const Cottage3 = () => {
   const Amenities = [
     {
       icon: "./icons/icon1.png",
-      name: "One Queen Bed",
+      name: "One King Bed",
     },
     {
       icon: "./icons/icon2.png",
@@ -178,7 +178,7 @@ const Cottage3 = () => {
             stunning Whitefish Bay on Lake Superior, features a beautiful stone
             fireplace for cozying up with a good book or to reinspire the
             artist/writer in you! Cabin 3 is ideal for a romantic getaway or a
-            peaceful solo retreat. Cabin 3 has one bedroom with a queen size bed
+            peaceful solo retreat. Cabin 3 has one bedroom with a King size bed
             and stunning lake views. Listen to the peaceful sound of the waves
             roll in on the shoreline as you doze off – just feet from the
             stunning shoreline of the bay.

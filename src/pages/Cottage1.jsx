@@ -54,7 +54,7 @@ const Cottage1 = () => {
   const Amenities = [
     {
       icon: "./icons/icon1.png",
-      name: "One Queen Bed",
+      name: "One King Bed",
     },
     {
       icon: "./icons/icon2.png",
@@ -188,7 +188,7 @@ const Cottage1 = () => {
             symphony of birdsongs in Paradise. This charming haven features
             rustic pine décor that’s perfect for relaxation and rejuvenation.
             Perfect for a honeymoon suite or romantic getaway! Cabin 1 features
-            1 bedroom with a queen size bed and 1 full bathroom.
+            1 bedroom with a King size bed and 1 full bathroom.
           </p>
         </div>
         <div className="para-family">

@@ -81,7 +81,7 @@ function Contact() {
               Cloud Nine Cottages in Paradise
             </h1>
             <p className=" lg:w-[53.6%] mx-auto leading-relaxed text-base">
-              6720 N. M-123, Paradise, MI 49768. Your Hosts are Jim and Eve Year
+              6720 N. M-123, Paradise, MI 49768. Your Hosts are Amy Year
               Round Lakeside Cottagesonly 63 miles from the Mackinac Bridge in
               the Upper Peninsula of Michigan
             </p>

@@ -71,7 +71,7 @@ const Footer = () => {
                   <Link to={"/cottage1"}>
                     <a
                       href=""
-                      className="px-4 py-2 hover:bg-gray-700"
+                      className="px-2 py-[1px] hover:bg-gray-700"
                       onClick={() => handleCottageClick("Cottage 1")}
                     >
                       Cottage 1
@@ -80,7 +80,7 @@ const Footer = () => {
                   <Link to={"/cottage2"}>
                     <a
                       href=""
-                      className="px-4 py-2 hover:bg-gray-700"
+                      className="px-2 py-[1px] hover:bg-gray-700"
                       onClick={() => handleCottageClick("Cottage 2")}
                     >
                       Cottage 2
@@ -89,7 +89,7 @@ const Footer = () => {
                   <Link to={"/cottage3"}>
                     <a
                       href=""
-                      className="px-4 py-2 hover:bg-gray-700"
+                      className="px-2 py-[1px] hover:bg-gray-700"
                       onClick={() => handleCottageClick("Cottage 3")}
                     >
                       Cottage 3
@@ -98,7 +98,7 @@ const Footer = () => {
                   <Link to={"/cottage4"}>
                     <a
                       href=""
-                      className="px-4 py-2 hover:bg-gray-700"
+                      className="px-2 py-[1px] hover:bg-gray-700"
                       onClick={() => handleCottageClick("Cottage 4")}
                     >
                       Cottage 4

@@ -65,7 +65,7 @@ const Header = () => {
               <Link to={"/cottage1"}>
                 <a
                   href=""
-                  className="px-4 py-2 hover:bg-gray-700 text-[16px]"
+                  className="px-2 py-[1px] hover:bg-gray-700 text-[16px]"
                   onClick={() => handleCottageClick("Cottage 1")}
                 >
                   Cottage 1
@@ -74,7 +74,7 @@ const Header = () => {
               <Link to={"/cottage2"}>
                 <a
                   href=""
-                  className="px-4 py-2 hover:bg-gray-700"
+                  className="px-2 py-[1px] hover:bg-gray-700"
                   onClick={() => handleCottageClick("Cottage 2")}
                 >
                   Cottage 2
@@ -83,7 +83,7 @@ const Header = () => {
               <Link to={"/cottage3"}>
                 <a
                   href=""
-                  className="px-4 py-2 hover:bg-gray-700"
+                  className="px-2 py-[1px] hover:bg-gray-700"
                   onClick={() => handleCottageClick("Cottage 3")}
                 >
                   Cottage 3
@@ -92,7 +92,7 @@ const Header = () => {
               <Link to={"/cottage4"}>
                 <a
                   href=""
-                  className="px-4 py-2 hover:bg-gray-700"
+                  className="px-2 py-[1px] hover:bg-gray-700"
                   onClick={() => handleCottageClick("Cottage 4")}
                 >
                   Cottage 4
@@ -110,12 +110,12 @@ const Header = () => {
           {isHoveredGuest && (
             <div className="absolute top-6 mt-2 w-48 bg-[#008080] rounded-md shadow-lg flex flex-col text-left z-20">
               <Link to={"/thingstodo"} onClick={() => handleGuestClick("Things To Do")}>
-                <a href="" className="px-4 py-2 hover:bg-gray-700">
+                <a href="" className="px-2 py-[1px] hover:bg-gray-700">
                   Things To Do
                 </a>
               </Link>
               <Link to={"/faq"} onClick={() => handleGuestClick("Faq")}>
-                <a href="" className="px-4 py-2 hover:bg-gray-700">
+                <a href="" className="px-2 py-[1px] hover:bg-gray-700">
                   FAQs
                 </a>
               </Link>

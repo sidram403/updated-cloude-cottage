@@ -4,9 +4,9 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const images = [
-  "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/hero%2Fhero_01.JPG?alt=media&token=05da2e6a-889f-45f2-9983-6a7f0c71cb08",
   "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/hero%2Fhero_02.jpg?alt=media&token=92d9fbaa-e56d-474c-853d-1aa4e000f03e",
   "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/hero%2Fhero_03.jpg?alt=media&token=b22ca2a0-1058-40f6-9d86-995b06415cac",
+  "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/hero%2Fhero_01.JPG?alt=media&token=05da2e6a-889f-45f2-9983-6a7f0c71cb08",
   "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/hero%2Fhero_04.jpg?alt=media&token=584f5c2c-ec65-4a93-b9d9-9090a271f6f3",
   "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/hero%2Fhero_05.jpg?alt=media&token=606ed0a6-0fac-4b46-baae-d4a0638bc0f7",
   "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/hero%2Fhero_06.jpg?alt=media&token=460fdfe8-30c3-4d2c-884d-36624667ce8d",

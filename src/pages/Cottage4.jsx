@@ -7,20 +7,25 @@ import SubscribeSection from "../components/SubscribeSection";
 import ContactSection from "../components/ContactSection";
 const images = [
   {
-    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2Fcottage4-1.jpg?alt=media&token=ef94259e-eb69-4845-b43c-9b4e5e4891ce",
-    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2Fcottage4-1.jpg?alt=media&token=ef94259e-eb69-4845-b43c-9b4e5e4891ce",
+    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2FIMG_6415.JPG?alt=media&token=36b3e149-0721-4bba-8f2c-1d19ac5ac89e",
+    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2FIMG_6415.JPG?alt=media&token=36b3e149-0721-4bba-8f2c-1d19ac5ac89e",
+  },
+  {
+    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2FIMG_6402.JPG?alt=media&token=16381a96-7fb8-4140-a280-d322dee7219c",
+    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2FIMG_6402.JPG?alt=media&token=16381a96-7fb8-4140-a280-d322dee7219c",
+  },
+ 
+  {
+    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2FIMG_8575.jpg?alt=media&token=30c0d58f-4007-44fa-94c9-32abb150d9f2",
+    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2FIMG_8575.jpg?alt=media&token=30c0d58f-4007-44fa-94c9-32abb150d9f2",
+  },
+  {
+    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2FIMG_8578.jpg?alt=media&token=b984eed7-db6c-4ae4-ae2e-b3fbdf34d058",
+    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2FIMG_8578.jpg?alt=media&token=b984eed7-db6c-4ae4-ae2e-b3fbdf34d058",
   },
   {
     original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2Fcottage4-2.jpg?alt=media&token=c4903d64-364e-4df7-97e4-ec0a2ffec6f3",
     thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2Fcottage4-2.jpg?alt=media&token=c4903d64-364e-4df7-97e4-ec0a2ffec6f3",
-  },
-  {
-    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2Fcottage4-3.jpeg?alt=media&token=fc83920d-0a5e-45d6-ae43-8d8d8002da37",
-    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2Fcottage4-3.jpeg?alt=media&token=fc83920d-0a5e-45d6-ae43-8d8d8002da37",
-  },
-  {
-    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2Fcottage4-9.jpeg?alt=media&token=51121607-631c-4b4e-9ab5-929a44e72bc8",
-    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2Fcottage4-9.jpeg?alt=media&token=51121607-631c-4b4e-9ab5-929a44e72bc8",
   },
   {
     original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2Fcottage4-4.jpg?alt=media&token=8b85b02f-f8aa-48f2-a8e8-9a16f651601a",
@@ -194,7 +199,7 @@ const Cottage4 = () => {
         </div>
         <div className="para-family">
           <h3 className="text-[16px] md:text-[20px] font-semibold my-[6px]">
-            Our Price :{" "}
+            Our Price :{" "} All bookings require 3 night minimum
           </h3>
           <h3 className="text-[16px] md:text-[20px] font-semibold my-[6px]">
             $195 per night (May 15 - June 20)
@@ -220,15 +225,7 @@ const Cottage4 = () => {
           <p className="text-[16px] md:text-[20px] font-extralight">
             Paradise, MI 49768
           </p>
-          <p className="text-[16px] md:text-[20px] font-extralight mt-4">
-            In addition to your initial deposit for booking, a $50 breakage fee
-            will apply to cover any accidental damage caused during your stay,
-            but will be refunded upon your departure as long as the unit remains
-            in good condition. This fee ensures our continued commitment to maintaining high
-            standards for all our guests. We appreciate your understanding and
-            cooperation in helping us maintain our facilities for everyone's
-            enjoyment.
-          </p>
+          
 
           
         </div>

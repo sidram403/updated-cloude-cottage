@@ -8,9 +8,15 @@ import ContactSection from "../components/ContactSection";
 const images = [
   {
     original:
-      "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage1%2Fcottage1-1.jpg?alt=media&token=b2174431-9359-4817-aa90-bdb2b90e5e51",
+      "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage1%2FIMG_6450.JPG?alt=media&token=abbe29f3-21d8-4a83-8b8c-65c451685068",
     thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage1%2Fcottage1-1.jpg?alt=media&token=b2174431-9359-4817-aa90-bdb2b90e5e51",
+      "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage1%2FIMG_6450.JPG?alt=media&token=abbe29f3-21d8-4a83-8b8c-65c451685068",
+  },
+  {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage1%2FIMG_6453.jpg?alt=media&token=a083d1ef-2441-44fb-8907-e066cc33c5a9",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage1%2FIMG_6453.jpg?alt=media&token=a083d1ef-2441-44fb-8907-e066cc33c5a9",
   },
   {
     original:
@@ -193,10 +199,10 @@ const Cottage1 = () => {
         </div>
         <div className="para-family">
           <h3 className="text-[16px] md:text-[20px] font-semibold my-[6px]">
-            Our Price :{" "}
+            Our Price :{" "} All bookings require 3 night minimum
           </h3>
           <h3 className="text-[16px] md:text-[20px] font-semibold my-[6px]">
-            $110 per night (May 15th - Oct 21st)
+            $110 per night (May 15th - Oct 21st) 
           </h3>
           <p className="text-[16px] md:text-[20px] font-extralight mt-4">
             We accept payment via cash or check, credit/debit card (credit card
@@ -213,15 +219,7 @@ const Cottage1 = () => {
           <p className="text-[16px] md:text-[20px] font-extralight">
             Paradise, MI 49768
           </p>
-          <p className="text-[16px] md:text-[20px] font-extralight mt-4">
-            In addition to your initial deposit for booking, a $50 breakage fee
-            will apply to cover any accidental damage caused during your stay,
-            but will be refunded upon your departure as long as the unit remains
-            in good condition.This fee ensures our continued commitment to maintaining high
-            standards for all our guests. We appreciate your understanding and
-            cooperation in helping us maintain our facilities for everyone's
-            enjoyment.
-          </p>
+          
 
           
         </div>

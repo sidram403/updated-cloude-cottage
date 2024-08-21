@@ -34,7 +34,7 @@ const Home = () => {
         <div className="flex flex-wrap gap-4 md:gap-0 px-8 md:px-10 lg:px-10 w-full">
           <div className="w-full md:w-1/2 lg:w-1/4">
             <CottageCard
-              image={Cottage1}
+              image={'https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage1%2FIMG_6450.JPG?alt=media&token=abbe29f3-21d8-4a83-8b8c-65c451685068'}
               title="Cottage 1"
               description="This charming haven features rustic pine décor that’s perfect for relaxation and rejuvenation. Perfect for a honeymoon suite or romantic getaway!"
               bathroom="1"
@@ -45,7 +45,7 @@ const Home = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-1/4">
             <CottageCard
-              image={Cottage2}
+              image={'https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage2%2FIMG_6342-HDR.jpg?alt=media&token=ad72e7d3-5b96-4734-bc46-b0c94af95285'}
               title="Cottage 2"
               description="This knotty pine cabin invites you to unwind with its overlooks of both Whitefish Bay and a tree-lined ravine."
               bathroom="1"
@@ -56,7 +56,7 @@ const Home = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-1/4">
             <CottageCard
-              image={Cottage3}
+              image={'https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2FIMG_6324.jpg?alt=media&token=d1c5cf10-c1f0-4d31-834b-cf921ddff4b5'}
               title="Cottage 3"
               description="This one-bedroom haven, just steps away from the sandy shorelines of stunning Whitefish Bay on Lake Superior, is ideal for a romantic getaway or a peaceful solo escape."
               bathroom="1"
@@ -67,7 +67,7 @@ const Home = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-1/4">
             <CottageCard
-              image={Cottage4}
+              image={'https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage4%2FIMG_6415.JPG?alt=media&token=36b3e149-0721-4bba-8f2c-1d19ac5ac89e'}
               title="Cottage 4"
               description="This cozy A frame offers a spacious loft bedroom that overlooks the bay for stunning sunrise views and a back porch for sipping your morning coffee to the serenade of waves on the bay."
               bathroom="1"
@@ -173,7 +173,7 @@ const Home = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-0 lg:gap-4">
           <div className="w-full md:w-1/3">
-            <DiscoverSection img={ServiceImg1} title="Motorcoach site" />
+            <DiscoverSection img={'https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/hero%2FIMG_6244.jpg?alt=media&token=8c6f6f72-c774-4941-a929-33461a3943bc'} title="Motorcoach site" />
           </div>
           <div className="w-full md:w-1/3">
             <DiscoverSection img={ServiceImg2} title="Beach yoga" />

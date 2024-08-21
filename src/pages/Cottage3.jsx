@@ -7,34 +7,34 @@ import SubscribeSection from "../components/SubscribeSection";
 import ContactSection from "../components/ContactSection";
 const images = [
   {
-    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-1.jpg?alt=media&token=87081f01-14ce-41cb-a007-59fc73a552cc",
-    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-1.jpg?alt=media&token=87081f01-14ce-41cb-a007-59fc73a552cc",
+    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2FIMG_6324.jpg?alt=media&token=d1c5cf10-c1f0-4d31-834b-cf921ddff4b5",
+    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2FIMG_6324.jpg?alt=media&token=d1c5cf10-c1f0-4d31-834b-cf921ddff4b5",
+  },
+  
+  {
+    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2FIMG_8597.jpg?alt=media&token=5c98648a-55bb-4972-b982-c74ef101ca31",
+    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2FIMG_8597.jpg?alt=media&token=5c98648a-55bb-4972-b982-c74ef101ca31",
+  },
+  {
+    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2FIMG_8598.jpg?alt=media&token=eee09107-e7a5-4d90-a55e-306fa2dc797f",
+    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2FIMG_8598.jpg?alt=media&token=eee09107-e7a5-4d90-a55e-306fa2dc797f",
+  },
+ 
+  {
+    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-3.jpg?alt=media&token=556ea88c-b37c-4cbc-9a03-0984e99eb985",
+    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-3.jpg?alt=media&token=556ea88c-b37c-4cbc-9a03-0984e99eb985",
   },
   {
     original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-2.jpg?alt=media&token=3b34d778-f03d-4219-b7e1-1e08e54f0591",
     thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-2.jpg?alt=media&token=3b34d778-f03d-4219-b7e1-1e08e54f0591",
   },
   {
-    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-3.jpg?alt=media&token=556ea88c-b37c-4cbc-9a03-0984e99eb985",
-    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-3.jpg?alt=media&token=556ea88c-b37c-4cbc-9a03-0984e99eb985",
-  },
-  
-  {
     original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-5.jpg?alt=media&token=87f2214e-cf8a-46ba-8e59-b23e1836a6d6",
     thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-5.jpg?alt=media&token=87f2214e-cf8a-46ba-8e59-b23e1836a6d6",
   },
-  {
-    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-6.jpg?alt=media&token=7e14f74c-97f6-46f0-88dd-7006f024821b",
-    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-6.jpg?alt=media&token=7e14f74c-97f6-46f0-88dd-7006f024821b",
-  },
-  {
-    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-7.jpg?alt=media&token=3282b99c-66c9-43da-95cf-14f8efb7de82",
-    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-7.jpg?alt=media&token=3282b99c-66c9-43da-95cf-14f8efb7de82",
-  },
-  {
-    original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-8.jpg?alt=media&token=a72d00c8-ad16-4579-a831-d9d199db29e6",
-    thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-8.jpg?alt=media&token=a72d00c8-ad16-4579-a831-d9d199db29e6",
-  },
+ 
+ 
+  
   {
     original: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-9.jpg?alt=media&token=c7b22b4b-057f-4592-861d-8475edbe7afe",
     thumbnail: "https://firebasestorage.googleapis.com/v0/b/cottage-527e5.appspot.com/o/cottage3%2Fcottage3-9.jpg?alt=media&token=c7b22b4b-057f-4592-861d-8475edbe7afe",
@@ -196,7 +196,7 @@ const Cottage3 = () => {
         </div>
         <div className="para-family">
           <h3 className="text-[16px] md:text-[20px] font-semibold my-[6px]">
-            Our Price :{" "}
+            Our Price :{" "} All bookings require 3 night minimum
           </h3>
           <h3 className="text-[16px] md:text-[20px] font-semibold my-[6px]">
             $140 per night (May 15 - June 20)
@@ -222,15 +222,7 @@ const Cottage3 = () => {
           <p className="text-[16px] md:text-[20px] font-extralight">
             Paradise, MI 49768
           </p>
-          <p className="text-[16px] md:text-[20px] font-extralight mt-4">
-            In addition to your initial deposit for booking, a $50 breakage fee
-            will apply to cover any accidental damage caused during your stay,
-            but will be refunded upon your departure as long as the unit remains
-            in good condition.This fee ensures our continued commitment to maintaining high
-            standards for all our guests. We appreciate your understanding and
-            cooperation in helping us maintain our facilities for everyone's
-            enjoyment.
-          </p>
+          
 
          
         </div>
